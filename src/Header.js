@@ -1,22 +1,16 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
    
      <div>
-         <Navbar bg="dark" data-bs-theme="dark">
-        <Container>
-          <Navbar.Brand href='#home'>Node Project</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="get">GetData</Nav.Link>
-            <Nav.Link href="post">PostData</Nav.Link>
-            <Nav.Link href="update">UpdateData</Nav.Link>
-            <Nav.Link href="delete">DeleteData</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
+         <ul>
+          <li><Link to="/">Getapi</Link></li>
+          <li><Link to="/post">Postapi</Link></li>
+          <li><Link to="/put">Putapi</Link></li>
+          <li><Link to="/delete">Deleteapi</Link></li>
+         </ul>
      </div>
       
     

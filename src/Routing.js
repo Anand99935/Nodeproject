@@ -12,10 +12,10 @@ function Routing()
    <BrowserRouter>
    <Header></Header>
    <Routes>
-    <Route path="get" element={<Getdata></Getdata>}></Route>
-    <Route path="post" element={<Postdata></Postdata>}></Route>
-    <Route path="update" element={<Updatedata></Updatedata>}></Route>
-    <Route path="delete" element={<Deletedata></Deletedata>}></Route>
+    <Route path="/" element={<Getdata></Getdata>}></Route>
+    <Route path="/post" element={<Postdata></Postdata>}></Route>
+    <Route path="/put" element={<Updatedata></Updatedata>}></Route>
+    <Route path="/delete" element={<Deletedata></Deletedata>}></Route>
    </Routes>
    </BrowserRouter>
         </div>
