@@ -6,7 +6,7 @@ function Getdata()
     const[data1,setdata]=useState([])
     useEffect(()=>
     {
-    fetch("http:localhost:6000/").then((result)=>{
+    fetch("https://nodeproject11-1h3t.onrender.com").then((result)=>{
         result.json().then((data)=>{
              setdata(data)
         })

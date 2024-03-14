@@ -7,7 +7,7 @@ function Deletedata()
     {
         const rollno=parseInt(rollno1); 
         const data={rollno}
-        fetch("http:localhost:6000/",{
+        fetch("https://nodeproject11-1h3t.onrender.com",{
             method:"DELETE",
             headers:{
                 "Accept":"application/json",

@@ -9,7 +9,7 @@ function Putapi()
     {
         e.preventDefault()
         const data={rollno,name,marks}
-        fetch("http:localhost:6000/",{
+        fetch("https://nodeproject11-1h3t.onrender.com",{
             method:"PUT",
             headers:{
                 "Accept":"application/json",
